@@ -1,0 +1,111 @@
+/* style wild card */
+*{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+/* style header */
+.head{
+    padding: 30px;
+}
+/* styling navbar */
+nav ul {
+    border-top: 1px solid grey;
+    text-align: center;
+    padding: 5px;
+}
+/* styling ul li */
+nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding-left: 20px;
+    color:gray;
+}
+/* apply psedo clases(hover) */
+nav ul li:hover{
+    color: rgb(15, 15, 15);
+}
+/* apply pseudo class last child */
+nav ul li:last-child{
+    border: 1px solid teal;
+    background-color: teal;
+    color: white;
+    padding: 3px;
+}
+/* styling input type */
+.head>input[type]{
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 20px;
+    color: gray;
+    padding: 8px;
+}
+/* apply hover to input classess */
+.head input[type]:hover{
+   background-color: teal;
+   border: 1px solid teal;
+   border-radius: 20px;
+   color: rgb(253, 252, 252);
+}
+/* .products-details img{
+    width: 30%;
+} */
+/* styling section */
+.first-img{
+    width: 30%;
+    background-color: rgb(27, 212, 98);
+}
+.content{
+    width: 65%;
+    background-color: rgb(247, 247, 240);
+    display: inline-block;
+    height: 600px;
+    padding: 20px;
+}
+.content h2{
+     padding-top: 20px;
+}
+.content p {
+    padding: 10px 5px;
+    color: gray;
+}
+.content a{
+    color: skyblue;
+    text-decoration: none;
+}
+#add{
+    background-color: tomato;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+.value{
+    width: 20px;
+    height: 20px;
+}
+.faq{
+    padding: 10px;
+    color: gray;
+}
+.faq h3{
+    color: blue;
+}
+#related-products{
+
+    /* justify-content: space-between; */
+    /* background-color: hotpink; */
+    /* padding: 10px;
+    margin: 10px; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.heading{
+    display:block;
+    text-transform: uppercase;
+}
+/* .img2{
+   display: inline-block;
+   width: 23%; */
+   /* text-align: center; */
+/* } */
